@@ -7,6 +7,7 @@ import RouteGuard from "./components/RouteGuard";
 import RedirectPage from "./pages/RedirectPage";
 import useKey from "./hooks/useKey";
 import ErrorPage from "./pages/ErrorPage";
+import DocumentPage from "./pages/DocumentPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/success" element={<RedirectPage />} />
         {/* </Route> */}
         <Route path="/error" element={<ErrorPage />} />
+        <Route path="/document" element={<DocumentPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -36,7 +36,7 @@ function SplashPage(props) {
           <div className="row">
             <div className="features">
               <div
-                className="col-md-4 col-sm-6 wow fadeInUp"
+                className="col-md-3 col-sm-6 wow fadeInUp"
                 data-wow-duration="300ms"
                 data-wow-delay="0ms"
               >
@@ -49,7 +49,7 @@ function SplashPage(props) {
                 {/* <NftDetection /> */}
               </div>
               <div
-                className="col-md-4 col-sm-6 wow fadeInUp"
+                className="col-md-3 col-sm-6 wow fadeInUp"
                 data-wow-duration="300ms"
                 data-wow-delay="100ms"
               >
@@ -70,9 +70,18 @@ function SplashPage(props) {
                   </div>
                 </div> */}
               </div>
+              <div
+                className="col-md-3 col-sm-6 wow fadeInUp"
+                data-wow-duration="300ms"
+                data-wow-delay="100ms"
+              >
+                <a href="/document" className="hover">
+                  <SplashCards title="DOCUMENT" image={Wave} />
+                </a>
+              </div>
 
               <div
-                className="col-md-4 col-sm-6 wow fadeInUp"
+                className="col-md-3 col-sm-6 wow fadeInUp"
                 data-wow-duration="300ms"
                 data-wow-delay="200ms"
               >
