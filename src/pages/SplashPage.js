@@ -9,6 +9,7 @@ import Pepe from "../assets/pepe.png";
 import Skull from "../assets/skull.png";
 import Wave from "../assets/wave.png";
 import Hug from "../assets/hug.png";
+import Camel from "../assets/oldcpusilkroad.png";
 
 function SplashPage(props) {
   const navigate = useNavigate();
@@ -76,7 +77,7 @@ function SplashPage(props) {
                 data-wow-delay="100ms"
               >
                 <a href="/document" className="hover">
-                  <SplashCards title="DOCUMENT" image={Wave} />
+                  <SplashCards title="DOCUMENT" image={Camel} />
                 </a>
               </div>
 

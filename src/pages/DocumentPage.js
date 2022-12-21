@@ -45,11 +45,7 @@ const Document = () => {
             <p>Thebenmeadows: link soon</p>
             <p>Tankbottoms: link soon</p>
 
-            <p>Plan for the ART HEIST SITE:</p>
-            
-            <p>ONE PAGE</p>
-            <p>WITH THE VIBES OF THIS:</p>
-            <a href="https://www.berkshirehathaway.com/">https://www.berkshirehathaway.com/</a>
+            <p>Vibes inspired by: <a href="https://www.berkshirehathaway.com/">https://www.berkshirehathaway.com/</a></p>
         </div>
     )
 }
